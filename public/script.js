@@ -13,7 +13,7 @@ const renderSuggestions = (response) => {
     response.forEach(suggestion => {
         const newSuggestion = document.createElement('div');
         newSuggestion.className = 'suggestion';
-        newSuggestion.innerHTML = `<div class="largeBag">${suggestion.largeBag}</div>
+        newSuggestion.innerHTML = `<div class="largeBags">${suggestion.largeBags}</div>
             <div class="shirts">- ${suggestion.shirts}</div>
             <div class="pants">- ${suggestion.pants}</div>`;
         container.appendChild(newSuggestion);
