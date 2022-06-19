@@ -1,7 +1,7 @@
-const answer1 = document.getElementById('answer-1');
-const answer2 = document.getElementById('answer-2');
-const answer3 = document.getElementById('answer-3');
-const answer4 = document.getElementById('answer-4');
+const destination = document.getElementById('dest');
+const days = document.getElementById('days');
+const yes = document.getElementById('yes');
+const no = document.getElementById('no');
 const sumbitButton = document.getElementById('submit');
 
 sumbitButton.addEventListener('click', () => {
@@ -18,4 +18,8 @@ sumbitButton.addEventListener('click', () => {
           renderStudents(response); 
         });
     
-})
+});
+
+function outfits(days){
+
+}
